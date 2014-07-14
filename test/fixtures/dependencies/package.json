@@ -1,0 +1,10 @@
+{
+    "name": "dependencies",
+    "version": "1.0.0",
+    "engines": {
+        "test": "*"
+    },
+    "dependencies": {
+        "lodash": "2.4.1"
+    }
+}
