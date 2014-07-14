@@ -1,5 +1,6 @@
 {
     "name": "packager",
+    "main": "lib/index.js",
     "description": "Package manager",
     "version": "0.0.0",
     "author": "samypesse@gmail.com",
@@ -8,5 +9,11 @@
         "lodash": "2.4.1",
         "semver": "2.3.1",
         "requirejs": "2.1.11"
+    },
+    "devDependencies": {
+        "mocha": "1.18.2"
+    },
+    "scripts": {
+        "test": "export TESTING=true; mocha --reporter list"
     }
 }
