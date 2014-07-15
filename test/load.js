@@ -14,4 +14,8 @@ describe('Packages loading', function() {
             return Q();
         }), done);
     });
+
+    it('can load all packages from a folder', function(done) {
+        qdone(packager.loadAll(path.join(__dirname, "fixtures")), done);
+    });
 });
