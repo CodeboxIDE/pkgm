@@ -1,11 +1,11 @@
 var Q = require('q');
-var Packager = require('../lib');
+var Pkgm = require('../lib');
 
 // Expose assert globally
 global.assert = require('assert');
 
 // Package for tests
-global.packager = new Packager({
+global.packager = new Pkgm({
     version: "1.0.0",
     engine: "test"
 });
