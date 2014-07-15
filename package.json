@@ -1,8 +1,8 @@
 {
     "name": "pkgm",
     "main": "lib/index.js",
-    "description": "Package manager",
-    "version": "1.0.0",
+    "description": "Make it easy to build a package manager for client/node large applications",
+    "version": "1.1.0",
     "author": "samypesse@gmail.com",
     "dependencies": {
         "q": "1.0.1",
