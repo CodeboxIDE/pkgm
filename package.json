@@ -2,7 +2,7 @@
     "name": "pkgm",
     "main": "lib/index.js",
     "description": "Package manager",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "author": "samypesse@gmail.com",
     "dependencies": {
         "q": "1.0.1",
