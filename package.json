@@ -1,5 +1,5 @@
 {
-    "name": "packager",
+    "name": "pkgm",
     "main": "lib/index.js",
     "description": "Package manager",
     "version": "0.0.0",
