@@ -1,5 +1,7 @@
 # Pkgm
 
+[![Build Status](https://travis-ci.org/CodeboxIDE/pkgm.png?branch=master)](https://travis-ci.org/CodeboxIDE/pkgm)
+
 Make it easy to build a package manager for client/node large applications.
 
 ## How to use it?
