@@ -1,0 +1,1 @@
+define("index",[],function(){return console.log("Hello World"),{test:1}});
