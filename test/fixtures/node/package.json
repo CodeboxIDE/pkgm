@@ -1,0 +1,8 @@
+{
+    "name": "node",
+    "version": "1.0.0",
+    "engines": {
+        "test": "*"
+    },
+    "node": "main.js"
+}

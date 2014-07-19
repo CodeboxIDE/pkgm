@@ -7,7 +7,10 @@ global.assert = require('assert');
 // Package for tests
 global.packager = new Pkgm({
     version: "1.0.0",
-    engine: "test"
+    engine: "test",
+    context: {
+        a: "test"
+    }
 });
 
 // Nicety for mocha / Q
