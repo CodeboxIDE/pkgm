@@ -2,7 +2,7 @@
     "name": "pkgm",
     "main": "lib/index.js",
     "description": "Make it easy to build a package manager for client/node large applications",
-    "version": "2.0.1",
+    "version": "2.1.0",
     "author": "samypesse@gmail.com",
     "dependencies": {
         "q": "1.0.1",
