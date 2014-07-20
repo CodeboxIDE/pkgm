@@ -3,7 +3,14 @@
     "main": "lib/index.js",
     "description": "Make it easy to build a package manager for client/node large applications",
     "version": "2.1.0",
-    "author": "samypesse@gmail.com",
+    "author": "Samy Pesse <samypesse@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/CodeboxIDE/pkgm.git"
+    },
+    "keywords": [
+        "packages", "bower", "npm"
+    ],
     "dependencies": {
         "q": "1.0.1",
         "lodash": "2.4.1",
