@@ -2,7 +2,7 @@
     "name": "pkgm",
     "main": "lib/index.js",
     "description": "Make it easy to build a package manager for client/node large applications",
-    "version": "2.2.0",
+    "version": "2.3.0",
     "author": "Samy Pesse <samypesse@gmail.com>",
     "repository": {
         "type": "git",
