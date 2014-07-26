@@ -10,4 +10,13 @@ describe('Packages build', function() {
             })
         , done);
     });
+
+    it('can build an empty package', function(done) {
+        qdone(
+            packager.loadPackage(path.join(__dirname, "fixtures/empty"))
+            .then(function(pkg) {
+                return pkg.optimizeClient();
+            })
+        , done);
+    });
 });
