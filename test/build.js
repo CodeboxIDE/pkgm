@@ -1,22 +1,22 @@
 var Q = require("q");
 var path = require("path");
+var fs = require("fs");
 
 describe('Packages build', function() {
-    it('can build a simple package', function(done) {
-        qdone(
-            packager.loadPackage(path.join(__dirname, "fixtures/client"))
-            .then(function(pkg) {
-                return pkg.optimizeClient();
-            })
-        , done);
+    it('can build a simple package', function() {
+        return packager.loadPackage(path.join(__dirname, "fixtures/client"))
+        .then(function(pkg) {
+            return pkg.optimizeClient();
+        })
+        .then(function() {
+            if (!fs.existsSync(path.join(__dirname, "fixtures/client/pkg-build.js"))) throw "error";
+        });
     });
 
-    it('can build an empty package', function(done) {
-        qdone(
-            packager.loadPackage(path.join(__dirname, "fixtures/empty"))
-            .then(function(pkg) {
-                return pkg.optimizeClient();
-            })
-        , done);
+    it('can build an empty package', function() {
+        return packager.loadPackage(path.join(__dirname, "fixtures/empty"))
+        .then(function(pkg) {
+            return pkg.optimizeClient();
+        });
     });
 });
