@@ -1,4 +1,5 @@
 var Q = require('q');
+var path = require('path');
 var Pkgm = require('../lib');
 
 // Expose assert globally
@@ -10,7 +11,8 @@ global.packager = new Pkgm({
     engine: "test",
     context: {
         a: "test"
-    }
+    },
+    lessInclude: path.resolve(__dirname, "./fixtures/includes.less")
 });
 
 // Nicety for mocha / Q
