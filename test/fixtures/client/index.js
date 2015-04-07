@@ -1,7 +1,5 @@
-define(function() {
-    console.log("Hello World");
+console.log("Hello World");
 
-    return {
-        test: 1
-    };
-});
+module.exports = {
+    test: 1
+};
