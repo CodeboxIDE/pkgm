@@ -19,4 +19,14 @@ describe('Packages build', function() {
             return pkg.optimizeClient();
         });
     });
+
+    it('can build a package with less or css', function() {
+        return packager.loadPackage(path.join(__dirname, "fixtures/css-less"))
+        .then(function(pkg) {
+            return pkg.optimizeClient();
+        })
+        .then(function() {
+            if (!fs.existsSync(path.join(__dirname, "fixtures/client/pkg-build.js"))) throw "error";
+        });
+    });
 });

@@ -17,7 +17,8 @@
         "semver": "2.3.1",
         "less": "1.7.3",
         "tmp": "0.0.24",
-        "browserify": "9.0.7"
+        "browserify": "9.0.7",
+        "node-lessify": "0.0.10"
     },
     "devDependencies": {
         "mocha": "1.18.2"
