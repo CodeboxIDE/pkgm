@@ -11,4 +11,11 @@ describe('Node packages', function() {
             if (global.nodeTest != "test") throw "test";
         });
     });
+
+    it('can run an empty package', function() {
+        return packager.loadPackage(path.join(__dirname, "fixtures/empty"))
+        .then(function(pkg) {
+            return pkg.run();
+        });
+    });
 });
