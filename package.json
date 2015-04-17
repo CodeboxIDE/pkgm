@@ -19,7 +19,8 @@
         "tmp": "0.0.24",
         "browserify": "9.0.7",
         "node-lessify": "0.0.10",
-        "through": "2.3.7"
+        "through": "2.3.7",
+        "uglify-js": "2.4.20"
     },
     "devDependencies": {
         "mocha": "1.18.2"
