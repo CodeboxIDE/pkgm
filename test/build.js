@@ -1,6 +1,7 @@
 var Q = require("q");
 var path = require("path");
 var fs = require("fs");
+var os = require("os");
 
 describe('Packages build', function() {
     it('can build a simple package', function() {
